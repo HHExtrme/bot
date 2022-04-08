@@ -1,0 +1,44 @@
+TICKETS:
+  MESSAGE_EMBED: "By clicking one of the corresponding button categories on this message, you will create a ticket with direct and private access to the staff.\n\n__**Support Categories**__\n{panels}\n\n__**Ticket Information**__\n`•` Before creating a ticket read the proper **FAQ** Channels.\n`•` Abuse of the ticket system will lead to **punishment(s)**\n"
+  TICKET_DESCRIPTION: "Hello <member.username>, our staff will answer you as quickly as possible.\nIn the meantime, please describe your problem here in as much detail as possible.\n\n**Ticket Type:** <ticket.type>\n**Ticket Owner:** <member.mention>"
+  NO-PERMS: You do not have sufficient permissions to execute this command.
+MUSIC:
+  SEARCHING: Searching for songs...
+  NO_CHANNEL: "You must be in a voice channel to use this command."
+  NO_JOINABLE: "I cannot join your voice channel."
+  NO_SPEAKABLE: "I cannot speak in your voice channel."
+  NO_SAME_CHANNEL: "You must be in the same voice channel as me to use this command."
+  INVALID_MODE: "Invalid mode. Can be 'queue', 'song' or 'none'."
+  NOT_FOUND: "I could not find any songs matching your query."
+  NO_VOLUME: "You need to specify a volume."
+  NO_QUEUE: "There is nothing in the queue."
+  NO_SONG: "There is no song playing."
+  NO_RESUME: "There is no song paused."
+  SKIPPED: "Skipped to the next song."
+  STOPPED: "Stopped the music."
+  PAUSED: "Paused the music."
+  RESUMED: "Resumed the music."
+  LOOP_DISABLED: "Looping is now disabled."
+  LOOP_SONG: "Looping the current song."
+  LOOP_QUEUE: "Looping the queue."
+  VOLUME_CHANGED: "Volume changed to **{volume}%**."
+  INVALID_VOLUME: "Invalid volume. Please enter a number between 1 and 100."
+GIVEAWAYS:
+  GIVEAWAY: "🎉 **GIVEAWAY** 🎉"
+  GIVEAWAY_ENDED: "🎉 **GIVEAWAY ENDED** 🎉"
+  GIVEAWAY_PAUSED: "⚠️ **THIS GIVEAWAY IS PAUSED !** ⚠️"
+  INVITE_TO_PARTICIPATE: "React with 🎉 to participate!"
+  WIN_MESSAGE: Congratulations {winners}! You won **{prize}**!
+  NEW_WINNERS: Congratulations, {winners}! You won **{prize}**!
+  NO_WINNER: No winner for this giveaway
+  DURATION: 'Duration: {timestamp}'
+  HOSTED_BY: 'Hosted by: {user}'
+REACTION_ROLES:
+  HAS_ROLE:
+    TITLE: "Role Removed"
+    DESCRIPTION: "Role {role} has been removed from you"
+    COLOR: "RED"
+  NO_ROLE:
+    TITLE: "Role Added"
+    DESCRIPTION: "Role {role} has been Added to you"
+    COLOR: "GREEN"

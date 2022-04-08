@@ -1,0 +1,351 @@
+###########################################
+#             Commands Config             #
+###########################################
+COMMANDS_CONFIG:
+  SCREENSHOT:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  SERVERINFO:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  TRANSLATE:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  ROLEINFO:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  DRIPPING:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  USERINFO:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  COMPILE:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  AVATAR:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  BACKUP:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  RELOAD:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  TROLL:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  HELP:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  NUKE:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  PING:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  POLL:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  MOVIE:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  KISS:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  BONK:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  DICK:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  NPM:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  IQ:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  CRY:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  HUG:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  KILL:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  LICK:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  SHIP:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  GUNPAUSE:
+    ENABLED: true
+    PERMISSIONS:
+      - "950752668647829513"
+      - "950752668664627260"
+  GREROLL:
+    ENABLED: true
+    PERMISSIONS:
+      - "950752668647829513"
+      - "950752668664627260"
+  GSTART:
+    ENABLED: true
+    PERMISSIONS:
+      - "950752668647829513"
+      - "950752668664627260"
+  GPAUSE:
+    ENABLED: true
+    PERMISSIONS:
+      - "950752668647829513"
+      - "950752668664627260"
+  GEND:
+    ENABLED: true
+    PERMISSIONS:
+      - "950752668647829513"
+      - "950752668664627260"
+  BAN_LIST:
+    ENABLED: true
+    PERMISSIONS:
+      - "950752668647829513"
+      - "950752668664627260"
+  TIMEOUT:
+    ENABLED: true
+    PERMISSIONS:
+      - "950752668647829513"
+      - "950752668664627260"
+  REMOVE_TIMEOUT:
+    ENABLED: true
+    PERMISSIONS:
+      - "950752668647829513"
+      - "950752668664627260"
+  UNWARN:
+    ENABLED: true
+    PERMISSIONS:
+      - "950752668647829513"
+      - "950752668664627260"
+  UNBAN:
+    ENABLED: true
+    PERMISSIONS:
+      - "950752668647829513"
+      - "950752668664627260"
+  WARNS:
+    ENABLED: true
+    PERMISSIONS:
+      - "950752668647829513"
+      - "950752668664627260"
+  WARN:
+    ENABLED: true
+    PERMISSIONS:
+      - "950752668647829513"
+      - "950752668664627260"
+  BAN:
+    ENABLED: true
+    PERMISSIONS:
+      - "950752668647829513"
+      - "950752668664627260"
+  NOW_PLAYING:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  RESUME:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  VOLUME:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  PAUSE:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  LOOP:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  PLAY:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  SKIP:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  STOP:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  STATS:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  REACTION_ROLES:
+    ENABLED: true
+    PERMISSIONS:
+      - "950752668647829513"
+      - "950752668664627260"
+  TIC_TAC_TOE:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  STEAL_STICKER:
+    ENABLED: true
+    PERMISSIONS:
+      - "950752668647829513"
+      - "950752668664627260"
+  STEAL_EMOJI:
+    ENABLED: true
+    PERMISSIONS:
+      - "950752668647829513"
+      - "950752668664627260"
+  RPS:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  LEADEARBOARD:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  RANK:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  SUGGEST_SYSTEM:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  SNIPE:
+    ENABLED: true
+    PERMISSIONS:
+      - "950752668647829513"
+      - "950752668664627260"
+  EDIT_SNIPE:
+    ENABLED: true
+    PERMISSIONS:
+      - "950752668647829513"
+      - "950752668664627260"
+  WORK:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  LEADERBOARD:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  RONALDO:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  PAY:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  BALANCE:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  DEPOSIT:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  WITHDRAW:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  LEADERBOARD_ECO:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  GIVE_MONEY:
+    ENABLED: true
+    PERMISSIONS:
+      - "950752668647829513"
+      - "950752668664627260"
+  REMOVE_MONEY:
+    ENABLED: true
+    PERMISSIONS:
+      - "950752668647829513"
+      - "950752668664627260"
+  RESET_MONEY:
+    ENABLED: true
+    PERMISSIONS:
+      - "950752668647829513"
+      - "950752668664627260"
+  CALCULATOR:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  VERIFY:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  BLACKLIST_WORDS:
+    ENABLED: true
+    PERMISSIONS:
+      - "950752668647829513"
+      - "950752668664627260"
+  PUNISH:
+    ENABLED: true
+    PERMISSIONS:
+      - "950752668647829513"
+      - "950752668664627260"
+  ROB:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  TICKET_MANAGE:
+    ENABLED: true
+    PERMISSIONS:
+      - "950752668647829513"
+      - "950752668664627260"
+  TICKET_OPTIONS:
+    ENABLED: true
+    PERMISSIONS:
+      - "950752668647829513"
+      - "950752668664627260"
+  NOTES:
+    ENABLED: true
+    PERMISSIONS:
+      - '@everyone'
+  VRF:
+    ENABLED: true
+    PERMISSIONS:
+      - '950752668681388078'
+  JOIN_MESSAGE:
+    ENABLED: true
+    PERMISSIONS:
+      - '950752668681388078'
+  COMMAND:
+    ENABLED: true
+    PERMISSIONS:
+      - "950752668647829513"
+      - "950752668664627260"
+      - "950752668681388078"

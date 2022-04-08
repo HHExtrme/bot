@@ -1,0 +1,246 @@
+##########################################
+#              Bot Config                #
+##########################################
+
+PREFIX: "!"
+TOKEN: 'ODE3Njg2MTAwMDU4MzA4NjA5.YENHhg.ZNQh0C7pZ6svD-CSC4DgL6H50y0'
+GUILD_ID: '950752668605882418'
+MONGO_URI: 'mongodb+srv://PearNetwork:PearNetwork0@clusterpear.epqa7.mongodb.net/pearbot?retryWrites=true&w=majority'
+API_KEYS:
+  ZERO_TWO: "PUCENDL9F648Z1OMY3"
+
+##########################################
+#             Activity Config            #
+##########################################
+
+ACTIVITY:
+  ENABLED: true
+  ACTIVITIES: # Placeholder x  {uptime} {members} {servers} {channels} {emojis}
+    - ["PLAYING", "with Pear"]
+    - ["WATCHING", "{members} humans in server"]
+    - ["WATCHING", "hackers"]
+    - ["LISTENING", "play.pearmc.com"]
+  INTERVAL: "30s" # 2d 12h 30m 15s
+
+##########################################
+#           Ticket Settings              #
+##########################################
+
+TICKET:
+  SERVER_NAME: Pear Network
+  STAFF_MENTION: "950755625862852700" # Staff Role ID
+  TRANSCRIPT_CHANNEL: "950752669713203202" # Channel ID
+  MENTION-STAFF: true
+  MAX_TICKETS: 3
+
+##########################################
+#          Giveaway Settings             #
+##########################################
+
+GIVEAWAYS:
+  BOTS_CAN_WIN: false
+  HOSTED_BY: true
+  EMBED_COLOR: "#ff0000"
+  EMBED_COLOR_END: "#ff0000"
+  EMBED_COLOR_PAUSED: "YELLOW"
+  REROLL_WINNERS: 1
+  REACTION: "🎉"
+
+##########################################
+#            Music Settings              #
+##########################################
+
+MUSIC_SYSTEM:
+  LEAVE_ON_EMPTY: true
+  LEAVE_ON_STOP: false
+  LEAVE_ON_END: false
+
+##########################################
+#            AutoRole Settings           #
+##########################################
+
+AUTOROLE:
+  MEMBER:
+    ENABLED: false
+    ROLE_ID: "927694130337964072"
+  BOT:
+    ENABLED: true
+    ROLE_ID: "950752668626849813"
+
+##########################################
+#         Welcome/Leave Settings         #
+##########################################
+
+WELCOME_SYSTEM:
+  ENABLED: true
+  CHANNEL_ID: "950752669130166306"
+  MESSAGE_EMBED:
+    TITLE: "✷ | {server-name}"
+    DESCRIPTION: "Hello, {user-mention}! Welcome to {server-name}\nWith you we are now {member-count} members!"
+    FOOTER: "{server-name} | {user-tag}"
+    THUMBNAIL: "" # {user-pfp} {bot-pfp} {server-pfp}
+    IMAGE: "{card-image}" # {user-pfp} {bot-pfp} {server-pfp} {card-image}
+    COLOR: "#2f3136"
+    TIMESTAMP: true
+
+LEAVE_SYSTEM:
+  ENABLED: false
+  CHANNEL_ID: "950475381050314762"
+  MESSAGE_EMBED:
+    TITLE: "✷ | {server-name}"
+    DESCRIPTION: "Goodbye, {user-mention}! We are now {member-count} members!"
+    FOOTER: "{server-name} | {user-tag}"
+    THUMBNAIL: "" # {user-pfp} {bot-pfp} {server-pfp}
+    IMAGE: "{card-image}" # {user-pfp} {bot-pfp} {server-pfp} {card-image}
+    COLOR: "#2f3136"
+    TIMESTAMP: false
+
+##########################################
+#             Verify Settings            #
+##########################################
+
+VERIFY_SYSTEM: # For send the embed to the channel use {prefix}vrf (Only users with ADMINISTRATOR permission)
+  ENABLED: true
+  ROLE_ID: "950752668626849814"
+  EMBED_CONFIG:
+    TITLE: "Verification System"
+    DESCRIPTION: "Hello, Welcome to Pear Network,\nfor security reasons you have to verify your account!\n\n**Use the button below to verify your account**"
+    FOOTER: "Verify your account"
+    COLOR: "#2f3136"
+  BUTTON:
+    LABEL: ""
+    STYLE: "SECONDARY" # https://i.imgur.com/faENOCE.png
+    EMOJI: "✅"
+  
+VERIFY_WEB_SYSTEM:
+  ENABLED: false
+  ROLE_ID: "927694130337964072"
+  CHANNEL_ID: "930951586744762449" # Cahnnel where the command verify work!
+  WEB_SETTINGS:
+    DEBUG: false
+    DOMAIN: "localhost"
+    HTTPS: false
+    WEB_PORT: 80
+  RECAPTCHA:
+    SECRET_KEY: "6LdiSgweAAAAAOX82CylvmQK5pUQUBwyPM5njicE"
+    PUBLIC_KEY: "6LdiSgweAAAAANdwTJyPq8SLiYT4UWYxtFwy4fui"
+  
+
+##########################################
+#            Suggest Settings            #
+##########################################
+
+SUGGEST_SYSTEM:
+  ENABLED: true
+  CHANNEL_ID: "950756468880199730"
+  EMOJIS: # Support for custom emojis
+    UPVOTE: "✅"
+    DOWNVOTE: "⛔"
+  COLORS:
+    ACCEPTED: "#00ff00"
+    REJECTED: "#ff0000"
+    PENDING: "#ffff00"
+
+##########################################
+#              Poll Settings             #
+##########################################
+
+POLL_SYSTEM:
+  ENABLED: false
+  CHANNEL_ID: "950752669130166310"
+  EMOJIS: # Only use custom emojis (no unicode)
+    - "" #1
+    - "" #2
+    - "" #3
+    - "" #4
+    - "" #5
+    - "" #6
+    - "" #7
+    - "" #8
+    - "" #9
+    - "" #10
+
+##########################################
+#        Reaction Roles Settings         #
+##########################################
+
+REACTION_ROLES:
+  ENABLED: true
+  EMBED_CONFIG:
+    TITLE: "Autoroles | Pear"
+    DESCRIPTION: "**These are the autoroles for this server.**"
+    FOOTER: "use the button for claim a role"
+    COLOR: "#2f3136"
+
+##########################################
+#            ChatBot Settings            #
+##########################################
+
+CHAT_BOT: 
+  ENABLED: false
+  CHANNEL_ID: "950478188021178379"
+  BOT_NAME: "Pear Bot"
+  DEVELOPER: "dänį ✞#9072"
+
+##########################################
+#            Levels/Xp Settings          #
+##########################################
+
+LEVELS_SYSTEM:
+  ENABLED: true
+  LEADEARBOARD: "level" # types avaliable (xp, level)
+  XP_PER_MESSAGE:
+    MIN_XP: 1
+    MAX_XP: 5
+
+##########################################
+#               Logs Settings            #
+##########################################
+
+LOGS_SYSTEM:
+  LOG_ENABLED: true
+  CHANNEL_ID: "950752669713203202"
+  ENABLED:
+    - "MessageEdited"
+    - "MessageDeleted"
+    - "GuildMemberUpdated"
+    - "ChannelCreated"
+    - "ChannelDeleted"
+    - "ChannelUpdated"
+    - "EmojiCreated"
+    - "EmojiDeleted"
+    - "EmojiUpdated"
+    - "RoleCreated"
+    - "RoleDeleted"
+    - "RoleUpdated"
+
+##########################################
+#            Economy Settings            #
+##########################################
+
+ECONOMY_SYSTEM:
+  ENABLED: false
+  COIN: ":coin:" # Custom emojis work (<:coin:788298741517647902>)
+  WORK_COMMAND:
+    COOLDOWN: "1h"
+    MAX_MONEY: 350
+    MIN_MONEY: 1
+  ROB_COOLDOWN: "12h"
+  WORKS:
+    - "Doctor"
+    - "Taxi Driver"
+    - "Banker"
+    - "Police"
+    - "Hacker"
+    - "Miner"
+    - "Farmer"
+
+##########################################
+#        Blacklist Words Settings        #
+##########################################
+
+BLACKLIST_WORDS:
+  ENABLED: true
+  ROLES_BYPASS: # Roles that can bypass the blacklist
+    - "950752668647829513"
+    - "950752668664627260"
